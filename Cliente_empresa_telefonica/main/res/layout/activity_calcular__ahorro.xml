@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CALCULAR_AHORRO">
+
+    <TextView
+        android:id="@+id/calcular_ahorro_cabecera"
+        android:layout_width="358dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="28dp"
+        android:text="@string/vacio"
+        android:textStyle="bold|italic"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pregunta_correo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="304dp"
+        android:layout_marginRight="44dp"
+        android:textStyle="bold|italic"
+        android:text="@string/pregunta_correo"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/boton_enviar_correo"
+        android:layout_width="85dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="536dp"
+        android:text="@string/boton_correo"
+        android:visibility="invisible"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_introducir_correo"
+        android:layout_width="167dp"
+        android:layout_height="40dp"
+        android:background="@drawable/estilo__bordes"
+        android:inputType="text"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772" />
+
+    <Button
+        android:id="@+id/boton_si_correo"
+        android:layout_width="71dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="344dp"
+        android:text="@string/boton_si"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pregunta_introdrucir_correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="404dp"
+        android:layout_marginRight="152dp"
+        android:text="@string/pregunta_introducir_Correo"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gasto_actual_cabecera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:text="@string/gasto_actual_cabecera"
+        android:textStyle="bold|italic"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gasto_previsto_cabecera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="@string/gasto_previsto_cabecera"
+        android:textStyle="bold|italic"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gasto_actual"
+        android:layout_width="244dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="104dp"
+        android:text="@string/vacio"
+        android:textStyle="bold|italic"
+        app:layout_constraintHorizontal_bias="0.755"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gasto_previsto"
+        android:layout_width="229dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="148dp"
+        android:textStyle="bold|italic"
+        android:text="@string/vacio"
+        app:layout_constraintHorizontal_bias="0.752"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mejora_ahorro_prestaciones"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="212dp"
+        android:text="@string/vacio"
+        android:textStyle="bold|italic"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

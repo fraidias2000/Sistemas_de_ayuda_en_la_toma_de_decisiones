@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">TELE AHORRO</string>
+
+    //Textos generales
+    <string name="vacio"></string>
+
+    // Pantalla principal
+    <string name="boton_entrar_aplicacion">ENTRAR EN LA APLICACIÓN</string>
+    <string name="boton_salir_aplicacion">SALIR DE LA APLICACIÓN</string>
+    <string name="terminios_y_condiciones">Términos y condiciones</string>
+
+    //Menú inicio
+    <string name="menu_inicio_cabecera">Rellena los siguientes datos</string>
+    <string name="Introduce_nombre_usuario">Introduce nombre usuario</string>
+    <string name="Introduce_apellido">Introduce apellido</string>
+    <string name="Introduce_correo_electronico">Introduce correo electronico</string>
+    <string name="Introduce_id_empresa">Introduce ID Empresa</string>
+    <string name="Introduce_direccion_empresa">Introduce direccion empresa</string>
+    <string name="boton_ver_tarifas">VER TARIFAS</string>
+
+    //Pantalla ver tarifas
+    <string name="pantalla_ver_tarifas_cabecera">ESTAS SON LAS TARIFAS ENCONTRADAS PARA TU EMPRESA</string>
+    <string name="boton_calcular_ahorro">CALCULAR AHORRO</string>
+    <string name="boton_calcular_bonos">CALCULAR BONOS</string>
+    <string name="error_tarifa">No hay ninguna tarifa para la empresa propuesta, pruebe con otra</string>
+
+
+    //Pantalla calcular ahorro
+    <string name="pregunta_correo">¿QUIERES QUE TE ENVIEMOS LA TARIFA POR CORREO?</string>
+    <string name="boton_si">SI</string>
+    <string name="boton_correo">ENVIAR</string>
+    <string name="pregunta_introducir_Correo">POR FAVOR, INTRODUCE UN CORREO</string>
+    <string name="gasto_actual_cabecera">GASTO ACTUAL: </string>
+    <string name="gasto_previsto_cabecera">GASTO PREVISTO: </string>
+
+    //Pantalla despedida
+    <string name="despedida_cabecera">GRACIAS POR USAR NUESTRA APLICACIÓN PARA DECIDIR SOBRE SU MEJOR TARIFA, ESPERAMOS VERLO PRONTO.</string>
+
+    //Pantalla terminos y condiciones
+    <string name="cabecera_terminos_condiciones">TÉRMINOS Y CONDICIONES</string>
+    <string name="texto_terminos_y_condiciones">  1. Esta aplicación se ha desarrollado en el contexto
+                                                    de la asignadura de Sistemas de ayuda a la toma de decisiones
+                                                    de la Universidad de Zaragoza durante el curso 2021 - 2022 y
+                                                    no se permite su uso fuera de este ámbito. \n \n
+
+                                                  2. Los datos utilizados han sido cedidos por el grupo Tervalis
+                                                    y no está permitido su uso fuera de la aplicación y
+                                                    tampoco su difusión. \n </string>
+
+    //Pantalla ver bonos
+    <string name="cabecera_ver_bonos">ESTOS SON LOS BONOS ENCONTRADOS PARA TU EMPRESA</string>
+    <string name="exportar_bonos">EXPORTAR BONOS AL CORREO ELECTRONICO</string>
+
+</resources>
